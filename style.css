@@ -34,7 +34,7 @@ body {
 .main ul{
     padding: 35px 0;
     list-style: circle;
-    padding-inline-start: 10px;
+    padding-inline-start: 20px;
 }
 .main ul li{
     padding: 5px 0;

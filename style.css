@@ -1,9 +1,14 @@
 body {
-  margin: 10;
-  padding:10;
+  margin: 30;
+  padding:30;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+main{
+  margin: 10;
+  height: 100%;
+  width: 600px;
+  position: fixed;
+}
 /* Style the side navigation */
 .sidenav {
   height: 100%;

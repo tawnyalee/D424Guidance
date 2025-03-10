@@ -33,7 +33,7 @@ body {
 
 .main ul{
     padding: 35px 0;
-    list-style: none;
+    list-style: circle;
 }
 .main ul li{
     padding: 20px 0;

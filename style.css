@@ -35,6 +35,9 @@ body {
     padding: 35px 0;
     list-style: none;
 }
+.main ul li{
+    padding: 20px 0;
+}
 .sidenav ul {
     list-style: none;
     padding: 0;

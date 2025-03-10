@@ -1,25 +1,43 @@
-body {
-   font-family: Arial, Helvetica, sans-serif;
-   display: flex;
-}
-main{
-            margin-left: 20px;
-            padding: 20px;
-            flex-grow: 1;
-}
-/* Style the side navigation */
-.sidenav {
-  width: 165px;
-  height: 100vh;
- background-color: #333;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Left Nav Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+        }
+
+        .sidenav {
+            width: 200px;
+            height: 100vh;
+            background-color: #333;
             color: white;
             padding: 20px;
-            position: fixed;
-            top: 0;
-            left: 0;  
-   flex-shrink: 0;
-}
-.sidenav ul {
+            position: relative;
+            flex-shrink: 0;
+        }
+
+        .main {
+            flex-grow: 1;
+            padding: 20px;
+            margin-left: 200px;
+        }
+
+        .sidenav ul {
             list-style: none;
             padding: 0;
         }

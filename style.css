@@ -9,7 +9,10 @@ body {
     display: flex;
     flex-direction: column; /* Ensures header (if any) is at the top */
 }
-
+table, th, td {
+  border: 1px solid;
+  width: 80%;
+}
 hr{
   display: block;
   margin-top: 0.5em;

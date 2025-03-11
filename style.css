@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column; /* Ensures header (if any) is at the top */
 }
+
 hr{
   display: block;
   margin-top: 0.5em;

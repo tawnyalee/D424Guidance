@@ -8,31 +8,198 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>My GitHub Page</title>
+    <title>D424 Task 3</title>
 
 </head>
 
 <body>
     <div class="container">
-		<div class="sidenav">
-			<ul>
-				<li><a href="index.html">Overview</a></li> 
-				<li><a href="task1.html">Task 1</a></li> 
-				<li><a href="task2.html">Task 2</a></li> 
-				<li> <a href="task3.html">Task 3</a></li> 
-				<li><a href="task4.html">Task 4</a></li> 
-				<li><a href="hosting.html">Hosting</a></li> 
-				<li><a href="examples.html">Examples</a></li> 
-				<li> <a href="security.html">Security Practices</a></li> 
-			</ul>    
-		</div>
-		<div class="main">
-		<h1>D424 Software Engineering Capstone - Task 3</h1>
+        <div class="sidenav">
+            <ul>
+                <li><a href="index.html">Overview</a></li>
+                <li><a href="task1.html">Task 1</a></li>
+                <li><a href="task2.html">Task 2</a></li>
+                <li> <a href="task3.html">Task 3</a></li>
+                <li><a href="task4.html">Task 4</a></li>
+                <li><a href="hosting.html">Hosting</a></li>
+                <li><a href="examples.html">Examples</a></li>
+                <li> <a href="security.html">Security Practices</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h1>D424 Software Engineering Capstone - Task 3</h1>
+
+            <p>
+                <b>IMPORTANT! </b>- It's become a trend for students to write using bullet points instead of writing complete sentences. These tasks are getting returned and locked. Please write in complete sentences. Use bulleted lists minimally or not at all. If you do use a bulleted list, make sure you write complete sentences for each bullet point.
+            </p>
+
+            <p>
+                Task 3 is the heart of the entire project. It has many moving parts and will be where you spend the majority of your time in D424. Please refer back to this as needed. Many common questions are addressed in this article. We recommend you review this article each time you work on Task 3 to make sure you include everything and understand what the expectations are.
+            </p>
+            <h2>Task 3 Overview</h2>
+            <p>Task 3 Process:</p>
+            <ol>
+                <li>Set up your Gitlab Repo.</li>
+                <li>Build your app according to the code requirements listed in Task 3 Section B.</li>
+                <li>Host your app.</li>
+                <li>Download the Task 3 template and add your content according to the explanations below.</li>
+                <li>Film your video showcasing all your app's features. Include a discussion on the tools you used to develop your app.</li>
+                <li>Submit all required items for Task 3.</li>
+            </ol>
+            <p>
+                In task 3, you'll be submitting the following:
+            </p>
+            <ul>
+                <li>A link to your Gitlab Repo</li>
+                <li><A copy of your Gitlab Branch History /li>
+                <li>A written document</li>
+                <li>A panopto video in which you demonstrate your working application and discuss the tools you used to develop your app</li>
+            </ul>
+            <p>
+                Your first step should be to set up your Gitlab Repo. Once you setup your repo, build your app. Once your app is built, go ahead and host your app. Once your app is hosted, write the documentation using the template we provide you below. After all of that, create your panopto video and submit.
+            </p>
 
 
-	   <p>Add more content or delete code as desired.</p>
-		</div>
-    </div>        
+            <h3>Setting up Gitlab</h3>
+            <p>
+                First, you’ll set up a Gitlab repository. Use this link to access Gitlab through the WGU SSO. Here are the instructions for setting up the repository for D424. NOTE: You must create a branch and push code to the branch. The root repo that is created is protected and you will not be able to push your code to the root. Please try your best to troubleshoot on your own. One of the most important skills a programmer can have is the ability to search on their own to solve problems and learn new coding skills. If you find you are stuck after spending a few days on the code, then reach out to us. Please provide as much information as possible, including the issue, any error messages, and screenshots.
+            </p>
+            <p>
+                Next, you’ll push your code to your repository. Keep in mind that you are required to show branch history with your submission. If you already have a fully-developed app, you can achieve this through minor tweaks or with the addition of comments to your code that you then push to the repo. When submitting task 3, submit a link to the Gitlab Repo using the URL option when you upload it. You'll also need a copy of branch repository history.
+            </p>
+            <p>
+                On rare occassions, students experience technical issues with Gitlab and are unable to use the D424 repo. If you are unable to resolve those issues and have worked with faculty to troubleshoot, let your instructor know. They will work with evaluation to find an acceptable alternative.
+            </p>
+            <hr />
+
+
+           
+            <h3>The Code</h3>
+            <p>
+                The full list of code requirements can be found in task 3 section B. We will discuss each of the requirements below. Containers are not required. Most student projects inherently include encapsulation. For ideas on incorporating inheritance and polymorphism, reach out to your instructor.
+            </p>    
+            <p>
+                <mark>If you need help troubleshooting your code, please send the code to your capstone instructor with screenshots of the error message. You may send code snippets or a link to your GitLab repository. </mark>If you send a link to your repository, please tell us the name of the file throwing the error. Provide as much detail as you are able to provide. While we do want you to try and troubleshoot on your own because it is a valuable learning experience, if you've spent several days and have not made headway, please let us know.
+            </p>
+            Search functionality can be a simple text field for users. It could also be date pickers or other user input objects that makes sense for your application. Using date pickers or text fields for data entry forms to be saved to a database does NOT count as search functionality. The elements HAVE to allow users to search for items, not enter data. Don't overthink this requirement. It's as simple as it seems to be. You can combine the search functionality with the report if you prefer. Creating reports with searchable parameters is common.
+
+            For reports, select the type of report that makes the most sense for your app's function. Students usually get concerned about the report requirement. You're good as long as you don't build a report that returns only one value. It's incredibly rare for a task to get returned due to the type of report the student creates. Generated log files qualify as a report. You can create a hard-coded report or a report with parameters for the user to search for a string or date range.
+
+            If your data doesn't inherently need a date-time stamp, use the DateTime of when the report is run. The report does not need to be exportable. It can reside onscreen within your application. Most students overthink this part and stress over the type of report. As long as you have a report that doesn't return only one value, you are ok. You can combine search functionality with the report if you'd like. For instance, searching using a string or a date picker and then generating the results as a report onscreen or as an export is acceptable.
+
+            The type of database you choose is up to you, so long as you can add, delete, and edit data through your code.
+
+            Validation functionality is simply the code you add to verify user input. It's good to use best practices for SQL Injection prevention, but not required. Any code meant to prevent SQL injection attacks can count as industry standard security features. Consider features that strip trailing or leading spaces and make sure users have entered the expected type of response (checking for email address to follow the standard name@domain.extension with regular expressions, for example).
+
+            Other security features beyond SQL Injection Prevention you may add could include a login screen and hashed password protection. The number and type of security features is left up to you as long as you have some included. This article provides a list of options you can implement to meet this requirement.
+
+            Scalable design elements would be items such as dropdown boxes, radio buttons, or table grids that are populated through a database rather than hard-coded. This allows for expansion of options and growth. For instance, your app may ask the user to select from paper or plastic and that may currently be their only options. However, in the coming years, cotton, hemp, or other materials may become options. If your field selectors are populated through the database, you only need to add other entries to the database to expand the app. If they are hard-coded, you would then have to touch your code in every single place that option exists in your application. This makes maintenance time-intensive and leaves the possibility open that you may forget where every option is presented to the user.
+
+            User-Friendly GUI - make sure your application is easy-to-use and understood by your target end-user. This involves clear menus, icons, confirmations when user-inputed data is accepted, and sensible error messages.
+
+            ___________________________________________________________________________________________________________________
+            Technical Documentation
+
+            When you get to the writing portion, use this template. You will need to go ahead and host your app before you start writing. There are several components in the task 3 written portion that are impossible to complete if you don't have your app already hosted.
+
+            *Task 3 asks for a link where web app is hosted with HTML (if applicable). This is impossible to supply unless you've already deployed your code. Go ahead and complete task 4 before submitting Task 3 so that you have a link to supply if this applies to your project. It won't apply to every project. View the links below for hosting options.
+
+            Hosting Options for Mobile Apps
+            Hosting Options for Web Apps
+
+
+            Technical Documentation
+            This is the written aspect of task 3 (use this template.) At the end of this page is a link to a sample paper for Task 3. We recommend you look it over to understand what is expected. In it, you provide technical documentation, test plans and results with at least two unit test scripts, and a user guide. If you use the template linked below this article and complete all sections with enough detail, you will have finished the written portions of this task. To see a listing of what is required, view Task 3 sections C & D.
+
+            Here's what needs to be included in the first portion:
+
+            A class diagram and discussion of the diagram
+            Wireframes for your project with a discussion of the wireframes
+            Discussion on the two unit tests that are required with screenshots of the unit test code/results
+            A link to your hosted app if it's a web application*
+            A link to the Gitlab Repo*
+            Discussion of how you set up and installed the app*
+            An end-user guide with screenshots that explains how to use the app
+            *These items are challenging to add if you have not hosted your app already
+
+            If you follow the template, you'll naturally include all the required elements. They aren't picky about class diagrams. Don't stress too much over yours. As long as you have one identifying your most important classes and their relationships, you'll be fine. Most students use PowerPoint or other apps to generate them. I've also seen hand-drawn class diagrams accepted, although they aren't as professional-looking.
+
+            When the task states you need a "user guide for maintenance purposes", this means technical documentation that we just discussed.
+
+            The second user guide is what we commonly understand as a user guide. Think of it as a quick-start for users or a written tutorial. You'll need to provide screenshots and clearly written instructions.
+
+
+
+            Regarding Unit Tests
+
+            Previous Classes: If you are a Java student, unit tests were handled in D287 Java Frameworks. If you are a C# student, unit tests were covered in D385 unit 2.3.
+
+            Many students don't have experience writing unit tests. For the purposes of this project, you only need to demonstrate two unit test scripts.  Pick at least one feature in which you discuss the unit tests. For instance, a unit test might be performed for the login screen. The first test is to see if the proper message is displayed when a user tries to login but they forget to enter a password and a second to test what happens when the user correctly enters a username and password. The discussion of the test plan might look something like the following table:
+
+
+
+            Test
+
+            What is Expected
+
+            What Happened
+
+            Pass?
+
+            User logs in with no password entered
+
+            The app displays message stating password is required.
+
+            The application shows generic error message with no explanation.
+
+            No
+
+            User logs in with correct username and password
+
+            User is directed to the main screen.
+
+            User is directed to the main screen.
+
+            Yes
+
+
+
+            Review the sample paper (also below this article) to see one way to approach this part of the task. Include two screenshots of your unit test code and discuss the results using the table above and a small write-up of what happened and if you had to revise code based on results. Unit test code will not be evaluated or searched for in your code base. It is only required as part of the written documentation.
+
+            Below are resources that can help you when writing your unit tests.
+
+            Here’s a reference for writing Junit tests for java projects using the NetBeans IDE: https://netbeans.org/kb/docs/java/junit-intro.html.
+
+            Here’s a very basic tutorial on running Junit tests for java projects using IntelliJ IDEA: https://www.tutorialspoint.com/intellij_idea/intellij_idea_unit_testing.htm
+
+
+
+            Here’s IntelliJ’s tutorial on testing: https://www.jetbrains.com/help/idea/tdd-with-intellij-idea.htmlTheir section on testing starts earlier, and the student may want to work their way through it: https://www.jetbrains.com/help/idea/testing.html
+
+
+
+            Here’s a C# reference from visual studio: https://docs.microsoft.com/en-us/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2019
+
+
+
+            ___________________________________________________________________________________________________________________
+            The Video
+            The video is what evaluator's will use to make sure your app functions as expected. Be sure to highlight every feature, especially those listed in Task 3 Section B. You'll also need to discuss all the tools you used to develop your app.
+
+            You don't have to appear on camera, though you can if you want.
+
+            Panopto Access
+            Sign in using the "WGU" option. If prompted, log in with your WGU student portal credentials, which should forward you to Panopto's website. If you have any problems accessing Panopto, please contact Assessment Services at assessmentservices@wgu.edu. It may take up to two business days to receive your WGU Panopto recording permissions once you have begun the course.
+
+            Panopto FAQs
+
+
+            Panopto How-To Videos
+
+
+            *Note - to be able to provide the link requested in task 3, you may need to complete task 4 before you submit task 3. Evaluation requires task 3 to pass before they will grade task 4. If you are on a time constraint, please stagger your submission. Keep in mind that if task 3 is returned, you'll want to cancel your task 4 submission.
+        </div>
+    </div>
 </body>
 
 </html>

@@ -17,6 +17,10 @@ h1{
 mark{
     background-color: #FFFF00;
 }
+.instructions{
+    font-color:FF0000;
+    
+}
 .container {
     display: flex;
     width: 100%;

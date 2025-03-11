@@ -40,7 +40,8 @@ h1{
 .main ul{
     padding: 35px 0;
     list-style: circle;
-    padding-inline-start: 20px;
+    padding-inline-start: 40px;
+    margin-right: 10px;
 }
 .main ul li{
     padding: 5px 0;

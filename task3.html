@@ -27,7 +27,7 @@
             </ul>
         </div>
         <div class="main">
-            <h1>D424 Software Engineering Capstone - Task 3</h1>
+            <h1>D424  - Task 3</h1>
 
             <p>
                 <b>IMPORTANT! </b>- It's become a trend for students to write using bullet points instead of writing complete sentences. These tasks are getting returned and locked. Please write in complete sentences. Use bulleted lists minimally or not at all. If you do use a bulleted list, make sure you write complete sentences for each bullet point.
@@ -62,7 +62,16 @@
 
             <h3>Setting up Gitlab</h3>
             <p>
-                First, you’ll set up a Gitlab repository. Use this link to access Gitlab through the WGU SSO. Here are the instructions for setting up the repository for D424. NOTE: You must create a branch and push code to the branch. The root repo that is created is protected and you will not be able to push your code to the root. Please try your best to troubleshoot on your own. One of the most important skills a programmer can have is the ability to search on their own to solve problems and learn new coding skills. If you find you are stuck after spending a few days on the code, then reach out to us. Please provide as much information as possible, including the issue, any error messages, and screenshots.
+                First, you’ll set up a Gitlab repository. Use <a href="https://gitlab.com/groups/wgu-gitlab-environment/-/saml/sso?token=Hzwm1Anx" target="_blank">this link</a> to access Gitlab through
+                the WGU SSO. Here are <a href="https://cm.wgu.edu/t5/Frequently-Asked-Questions/WGU-GitLab-Environment/ta-p/50512" target="_blank">the instructions</a> for setting up the repository for D424.
+                <mark>NOTE: You must create a branch and push code to the branch. </mark>The root repo that is created is protected and you
+                will not be able to push your code to the root.
+            </p>
+            <p>
+                Please try your best to troubleshoot on your own.
+                One of the most important skills a programmer can have is the ability to search on their own to solve problems and
+                learn new coding skills. If you find you are stuck after spending a few days on the code, then reach out to us.
+                Please provide as much information as possible, including the issue, any error messages, and screenshots.
             </p>
             <p>
                 Next, you’ll push your code to your repository. Keep in mind that you are required to show branch history with your submission. If you already have a fully-developed app, you can achieve this through minor tweaks or with the addition of comments to your code that you then push to the repo. When submitting task 3, submit a link to the Gitlab Repo using the URL option when you upload it. You'll also need a copy of branch repository history.
@@ -81,13 +90,13 @@
             <p>Code Requirements:</p>
             <ul>
                 <li> code including inheritance, polymorphism, and encapsulation</li>
-                <li>search functionality with multiple row results and displays</li> 
-                <li>a database component with the functionality to securely add, modify, and delete the data</li> 
-                <li>ability to generate reports with multiple columns, multiple rows, date-time stamps, and title</li> 
-                <li>validation functionality</li> 
-                <li>industry-appropriate security features</li> 
-                <li>design elements that make the application scalable</li> 
-                <li>a user-friendly, functional GUI</li> 
+                <li>search functionality with multiple row results and displays</li>
+                <li>a database component with the functionality to securely add, modify, and delete the data</li>
+                <li>ability to generate reports with multiple columns, multiple rows, date-time stamps, and title</li>
+                <li>validation functionality</li>
+                <li>industry-appropriate security features</li>
+                <li>design elements that make the application scalable</li>
+                <li>a user-friendly, functional GUI</li>
             </ul>
             <p>
                 <mark>If you need help troubleshooting your code, please send the code to your capstone instructor with screenshots of the error message. You may send code snippets or a link to your GitLab repository. </mark>If you send a link to your repository, please tell us the name of the file throwing the error. Provide as much detail as you are able to provide. While we do want you to try and troubleshoot on your own because it is a valuable learning experience, if you've spent several days and have not made headway, please let us know.
@@ -102,7 +111,7 @@
                 If your data doesn't inherently need a date-time stamp, use the DateTime of when the report is run. The report does not need to be exportable. It can reside onscreen within your application. Most students overthink this part and stress over the type of report. As long as you have a report that doesn't return only one value, you are ok. You can combine search functionality with the report if you'd like. For instance, searching using a string or a date picker and then generating the results as a report onscreen or as an export is acceptable.
             </p>
             <p>The type of <b>database</b> you choose is up to you, so long as you can add, delete, and edit data through your code.</p>
-            
+
             <p>
                 <b>Validation functionality</b> is simply the code you add to verify user input. It's good to use best practices for SQL Injection prevention, but not required. Any code meant to prevent SQL injection attacks can count as industry standard security features. Consider features that strip trailing or leading spaces and make sure users have entered the expected type of response (checking for email address to follow the standard name@domain.extension with regular expressions, for example).
             </p>
@@ -116,107 +125,129 @@
             <p>
                 <b>User-Friendly GUI</b> - make sure your application is easy-to-use and understood by your target end-user. This involves clear menus, icons, confirmations when user-inputed data is accepted, and sensible error messages.
             </p>
-            ___________________________________________________________________________________________________________________
-            Technical Documentation
+            <hr />
+            <h3>Technical Documentation</h3>
+            <p>
+                When you get to the writing portion, use <a href="task3.docx">this template</a>. You can view this <a href="task3sample.pdf">Task 3 Sample</a>
+                You will need to go ahead and host your app before you start writing. Yes, this is supposed
+                to be done in Task 4;however, there are many components that will be difficult to address in this documentation if you don't have your app hosted.
+            </p>
+            <p>
+                <mark>*Task 3 asks for a link where web app is hosted with HTML (if applicable). </mark>This is impossible to supply unless you've
+                already deployed your code. Go ahead and complete task 4 before submitting Task 3 so that you have a link to supply if this applies
+                to your project. It won't apply to every project. It also asks you to write documentation for setting up and maintaining your app.
+                If you haven't hosted it, you can't write the instructions for setting up and maintaining the application.
+            </p>
 
-            When you get to the writing portion, use this template. You will need to go ahead and host your app before you start writing. There are several components in the task 3 written portion that are impossible to complete if you don't have your app already hosted.
+            <p>
+                The technical documentation is in two parts: technical docs for other programmers and a user guide for your end users.
+            </p>
+            <p>Here's what needs to be included in the first portion:</p>
+            <ul>
+                <li>A class diagram and discussion of the diagram</li>
+                <li>Wireframes for your project with a discussion of the wireframes.</li>
+                <li>Discussion on the two unit tests that are required with screenshots of the unit test code/results</li>
+                <li>A link to your hosted app if it's a web application*</li>
+                <li>A link to the Gitlab Repo*</li>
+                <li>Discussion of how you set up and installed the app*</li>
+                <li>An end-user guide with screenshots that explains how to use the app</li>
+            </ul>
+            <p>*These items are challenging to add if you have not hosted your app already</p>
 
-            *Task 3 asks for a link where web app is hosted with HTML (if applicable). This is impossible to supply unless you've already deployed your code. Go ahead and complete task 4 before submitting Task 3 so that you have a link to supply if this applies to your project. It won't apply to every project. View the links below for hosting options.
-
-            Hosting Options for Mobile Apps
-            Hosting Options for Web Apps
-
-
-            Technical Documentation
-            This is the written aspect of task 3 (use this template.) At the end of this page is a link to a sample paper for Task 3. We recommend you look it over to understand what is expected. In it, you provide technical documentation, test plans and results with at least two unit test scripts, and a user guide. If you use the template linked below this article and complete all sections with enough detail, you will have finished the written portions of this task. To see a listing of what is required, view Task 3 sections C & D.
-
-            Here's what needs to be included in the first portion:
-
-            A class diagram and discussion of the diagram
-            Wireframes for your project with a discussion of the wireframes
-            Discussion on the two unit tests that are required with screenshots of the unit test code/results
-            A link to your hosted app if it's a web application*
-            A link to the Gitlab Repo*
-            Discussion of how you set up and installed the app*
-            An end-user guide with screenshots that explains how to use the app
-            *These items are challenging to add if you have not hosted your app already
-
-            If you follow the template, you'll naturally include all the required elements. They aren't picky about class diagrams. Don't stress too much over yours. As long as you have one identifying your most important classes and their relationships, you'll be fine. Most students use PowerPoint or other apps to generate them. I've also seen hand-drawn class diagrams accepted, although they aren't as professional-looking.
-
-            When the task states you need a "user guide for maintenance purposes", this means technical documentation that we just discussed.
-
-            The second user guide is what we commonly understand as a user guide. Think of it as a quick-start for users or a written tutorial. You'll need to provide screenshots and clearly written instructions.
-
-
-
-            Regarding Unit Tests
-
-            Previous Classes: If you are a Java student, unit tests were handled in D287 Java Frameworks. If you are a C# student, unit tests were covered in D385 unit 2.3.
-
-            Many students don't have experience writing unit tests. For the purposes of this project, you only need to demonstrate two unit test scripts.  Pick at least one feature in which you discuss the unit tests. For instance, a unit test might be performed for the login screen. The first test is to see if the proper message is displayed when a user tries to login but they forget to enter a password and a second to test what happens when the user correctly enters a username and password. The discussion of the test plan might look something like the following table:
-
-
-
-            Test
-
-            What is Expected
-
-            What Happened
-
-            Pass?
-
-            User logs in with no password entered
-
-            The app displays message stating password is required.
-
-            The application shows generic error message with no explanation.
-
-            No
-
-            User logs in with correct username and password
-
-            User is directed to the main screen.
-
-            User is directed to the main screen.
-
-            Yes
+            <p>
+                If you follow the template, you'll naturally include all the required elements. They aren't picky about class diagrams. Don't stress too much over yours. As long as you have one identifying your most important classes and their relationships, you'll be fine. Most students use PowerPoint or other apps to generate them. I've also seen hand-drawn class diagrams accepted, although they aren't as professional-looking.
+            </p>
+            <p>
+                When the task states you need a "user guide for maintenance purposes", this means technical documentation that we just discussed.
+            </p>
+            <p>
+                The second user guide is what we commonly understand as a user guide. Think of it as a quick-start for users or a written tutorial. You'll need to provide screenshots and clearly written instructions.
+            </p>
 
 
 
-            Review the sample paper (also below this article) to see one way to approach this part of the task. Include two screenshots of your unit test code and discuss the results using the table above and a small write-up of what happened and if you had to revise code based on results. Unit test code will not be evaluated or searched for in your code base. It is only required as part of the written documentation.
+            <h2>Regarding Unit Tests</h2>
+            <p>
+                Previous Classes: If you are a Java student, unit tests were handled in D287 Java Frameworks. If you are a C# student,
+                unit tests were covered in D385 unit 2.3.
+            </p>
+            <p>
+                Many students don't have experience writing unit tests. For the purposes of this project, you only need to demonstrate
+                two unit test scripts.  Pick at least one feature in which you discuss the unit tests. For instance, a unit test might be
+                performed for the login screen. The first test is to see if the proper message is displayed when a user tries to login but
+                they forget to enter a password and a second to test what happens when the user correctly enters a username and password.
+                The discussion of the test plan might look something like the following table:
+            </p>
 
-            Below are resources that can help you when writing your unit tests.
+            <table>
+                <tr>
+                    <td>Test</td>
+                    <td>What is Expected</td>
+                    <td>What Happened</td>
+                    <td> Pass?</td>
+                </tr>
+                <tr>
+                    <td>User logs in with no password entered</td>
+                    <td>The app displays message stating password is required.</td>
+                    <td>The application shows generic error message with no explanation</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>User logs in with correct username and password</td>
+                    <td>User is directed to the main screen.</td>
+                    <td>User is directed to the main screen.</td>
+                    <tdYes></tdYes>
+                </tr>
+            </table>
 
-            Here’s a reference for writing Junit tests for java projects using the NetBeans IDE: https://netbeans.org/kb/docs/java/junit-intro.html.
+            <p>
+                Review the sample paper (also below this article) to see one way to approach this part of the task. Include two screenshots of your unit 
+                test code and discuss the results using the table above and a small write-up of what happened and if you had to revise code based on results. 
+                Unit test code will not be evaluated or searched for in your code base. It is only required as part of the written documentation.
+            </p>
+            <p>
+                Below are resources that can help you when writing your unit tests.
+            </p>
+            <p>
+                Here’s a reference for writing Junit tests for java projects using the NetBeans IDE: https://netbeans.org/kb/docs/java/junit-intro.html.
+            </p>
+            <p>
+                Here’s a very basic tutorial on running Junit tests for java projects using IntelliJ IDEA: https://www.tutorialspoint.com/intellij_idea/intellij_idea_unit_testing.htm
+            </p>
 
-            Here’s a very basic tutorial on running Junit tests for java projects using IntelliJ IDEA: https://www.tutorialspoint.com/intellij_idea/intellij_idea_unit_testing.htm
+            <p>
+                Here’s IntelliJ’s tutorial on testing: https://www.jetbrains.com/help/idea/tdd-with-intellij-idea.htmlTheir section on testing starts earlier, and the student may want to work their way through it: https://www.jetbrains.com/help/idea/testing.html
+            </p>
 
+            <p>
+                Here’s a C# reference from visual studio: https://docs.microsoft.com/en-us/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2019
+            </p>
 
+            <hr />
+            <h3>The Video</h3>
+            <p>
+                The video is what evaluator's will use to make sure your app functions as expected. Be sure to highlight every feature, 
+                especially those listed in Task 3 Section B. You'll also need to discuss all the tools you used to develop your app.
+            </p>
+            <p>You don't have to appear on camera, though you can if you want.</p>
+            
+            <p>
+                <a href="https://wgu.hosted.panopto.com/" target="_blank">Panopto Access</a> <br />
+                Sign in using the "WGU" option. If prompted, log in with your WGU student portal credentials, which should forward you to 
+                Panopto's website. If you have any problems accessing Panopto, please <a href="mailto:assessmentservices@wgu.edu" ">contact Assessment Services</a>. 
+                It may take up to two business days to receive your WGU Panopto recording permissions once you have begun the course.
+            </p>
+            <p><a href="https://cm.wgu.edu/t5/Frequently-Asked-Questions/Panopto-FAQs/ta-p/3611" target="_blank">Panopto FAQs</a></p>
 
-            Here’s IntelliJ’s tutorial on testing: https://www.jetbrains.com/help/idea/tdd-with-intellij-idea.htmlTheir section on testing starts earlier, and the student may want to work their way through it: https://www.jetbrains.com/help/idea/testing.html
+            <p><a href="https://wgu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22291182f0-cb6a-466a-929c-2cbac05f0109%22" target="_blank">Panopto How-To Videos</a>
+            
+            <p>
+                <b>*Note</b> - to be able to provide the link requested in task 3, you may need to complete task 4 before you submit task 3.
+                Evaluation requires task 3 to pass before they will grade task 4. If you are on a time constraint, please stagger your submissions.
+                Keep in mind that if task 3 is returned, you'll want to cancel your task 4 submission.
+            </p>
 
-
-
-            Here’s a C# reference from visual studio: https://docs.microsoft.com/en-us/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2019
-
-
-
-            ___________________________________________________________________________________________________________________
-            The Video
-            The video is what evaluator's will use to make sure your app functions as expected. Be sure to highlight every feature, especially those listed in Task 3 Section B. You'll also need to discuss all the tools you used to develop your app.
-
-            You don't have to appear on camera, though you can if you want.
-
-            Panopto Access
-            Sign in using the "WGU" option. If prompted, log in with your WGU student portal credentials, which should forward you to Panopto's website. If you have any problems accessing Panopto, please contact Assessment Services at assessmentservices@wgu.edu. It may take up to two business days to receive your WGU Panopto recording permissions once you have begun the course.
-
-            Panopto FAQs
-
-
-            Panopto How-To Videos
-
-
-            *Note - to be able to provide the link requested in task 3, you may need to complete task 4 before you submit task 3. Evaluation requires task 3 to pass before they will grade task 4. If you are on a time constraint, please stagger your submission. Keep in mind that if task 3 is returned, you'll want to cancel your task 4 submission.
+            
         </div>
     </div>
 </body>

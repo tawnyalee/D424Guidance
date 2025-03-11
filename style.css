@@ -61,4 +61,31 @@ mark {
 
 .main ol {
     padding: 35px 0;
-    list-style: decimal;  /* Changed from
+    list-style: decimal;  /* Changed from circle to decimal for ordered lists */
+    padding-inline-start: 40px;
+    margin-right: 10px;
+}
+
+.main ol li {
+    padding: 5px 0;
+}
+
+.sidenav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidenav ul li {
+    padding: 10px 0;
+}
+
+.sidenav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidenav ul li a:hover {
+    background-color: #1E4BAE; /* Slightly darker shade for hover effect */
+    padding-left: 5px;
+}

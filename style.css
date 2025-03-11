@@ -49,6 +49,15 @@ mark{
 .main ul li{
     padding: 5px 0;
 }
+.main ol{
+    padding: 35px 0;
+    list-style: circle;
+    padding-inline-start: 40px;
+    margin-right: 10px;
+}
+.main ol li{
+    padding: 5px 0;
+}
 .sidenav ul {
     list-style: none;
     padding: 0;

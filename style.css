@@ -9,6 +9,15 @@ body {
     display: flex;
     flex-direction: column; /* Ensures header (if any) is at the top */
 }
+hr{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 3px;
+}
 
 h2 {
     text-align: center;

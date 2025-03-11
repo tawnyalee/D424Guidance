@@ -73,30 +73,49 @@
             <hr />
 
 
-           
+
             <h3>The Code</h3>
             <p>
                 The full list of code requirements can be found in task 3 section B. We will discuss each of the requirements below. Containers are not required. Most student projects inherently include encapsulation. For ideas on incorporating inheritance and polymorphism, reach out to your instructor.
-            </p>    
+            </p>
+            <p>Code Requirements:</p>
+            <ul>
+                <li> code including inheritance, polymorphism, and encapsulation</li>
+                <li>search functionality with multiple row results and displays</li> 
+                <li>a database component with the functionality to securely add, modify, and delete the data</li> 
+                <li>ability to generate reports with multiple columns, multiple rows, date-time stamps, and title</li> 
+                <li>validation functionality</li> 
+                <li>industry-appropriate security features</li> 
+                <li>design elements that make the application scalable</li> 
+                <li>a user-friendly, functional GUI</li> 
+            </ul>
             <p>
                 <mark>If you need help troubleshooting your code, please send the code to your capstone instructor with screenshots of the error message. You may send code snippets or a link to your GitLab repository. </mark>If you send a link to your repository, please tell us the name of the file throwing the error. Provide as much detail as you are able to provide. While we do want you to try and troubleshoot on your own because it is a valuable learning experience, if you've spent several days and have not made headway, please let us know.
             </p>
-            Search functionality can be a simple text field for users. It could also be date pickers or other user input objects that makes sense for your application. Using date pickers or text fields for data entry forms to be saved to a database does NOT count as search functionality. The elements HAVE to allow users to search for items, not enter data. Don't overthink this requirement. It's as simple as it seems to be. You can combine the search functionality with the report if you prefer. Creating reports with searchable parameters is common.
+            <p>
+                <b>Search functionality</b> can be a simple text field for users. It could also be date pickers or other user input objects that makes sense for your application. Using date pickers or text fields for data entry forms to be saved to a database does NOT count as search functionality. The elements HAVE to allow users to search for items, not enter data. Don't overthink this requirement. It's as simple as it seems to be. You can combine the search functionality with the report if you prefer. Creating reports with searchable parameters is common.
+            </p>
+            <p>
+                For <b>reports</b>, select the type of report that makes the most sense for your app's function. Students usually get concerned about the report requirement. You're good as long as you don't build a report that returns only one value. It's incredibly rare for a task to get returned due to the type of report the student creates. Generated log files qualify as a report. You can create a hard-coded report or a report with parameters for the user to search for a string or date range.
+            </p>
+            <p>
+                If your data doesn't inherently need a date-time stamp, use the DateTime of when the report is run. The report does not need to be exportable. It can reside onscreen within your application. Most students overthink this part and stress over the type of report. As long as you have a report that doesn't return only one value, you are ok. You can combine search functionality with the report if you'd like. For instance, searching using a string or a date picker and then generating the results as a report onscreen or as an export is acceptable.
+            </p>
+            <p>The type of <b>database</b> you choose is up to you, so long as you can add, delete, and edit data through your code.</p>
+            
+            <p>
+                <b>Validation functionality</b> is simply the code you add to verify user input. It's good to use best practices for SQL Injection prevention, but not required. Any code meant to prevent SQL injection attacks can count as industry standard security features. Consider features that strip trailing or leading spaces and make sure users have entered the expected type of response (checking for email address to follow the standard name@domain.extension with regular expressions, for example).
+            </p>
+            <p>
+                Other <b>security features</b> beyond SQL Injection Prevention you may add could include a login screen and hashed password protection. The number and type of security features is left up to you as long as you have some included. This article provides a list of options you can implement to meet this requirement.
+            </p>
+            <p>
+                <b>Scalable design elements</b> would be items such as dropdown boxes, radio buttons, or table grids that are populated through a database rather than hard-coded. This allows for expansion of options and growth. For instance, your app may ask the user to select from paper or plastic and that may currently be their only options. However, in the coming years, cotton, hemp, or other materials may become options. If your field selectors are populated through the database, you only need to add other entries to the database to expand the app. If they are hard-coded, you would then have to touch your code in every single place that option exists in your application. This makes maintenance time-intensive and leaves the possibility open that you may forget where every option is presented to the user.
 
-            For reports, select the type of report that makes the most sense for your app's function. Students usually get concerned about the report requirement. You're good as long as you don't build a report that returns only one value. It's incredibly rare for a task to get returned due to the type of report the student creates. Generated log files qualify as a report. You can create a hard-coded report or a report with parameters for the user to search for a string or date range.
-
-            If your data doesn't inherently need a date-time stamp, use the DateTime of when the report is run. The report does not need to be exportable. It can reside onscreen within your application. Most students overthink this part and stress over the type of report. As long as you have a report that doesn't return only one value, you are ok. You can combine search functionality with the report if you'd like. For instance, searching using a string or a date picker and then generating the results as a report onscreen or as an export is acceptable.
-
-            The type of database you choose is up to you, so long as you can add, delete, and edit data through your code.
-
-            Validation functionality is simply the code you add to verify user input. It's good to use best practices for SQL Injection prevention, but not required. Any code meant to prevent SQL injection attacks can count as industry standard security features. Consider features that strip trailing or leading spaces and make sure users have entered the expected type of response (checking for email address to follow the standard name@domain.extension with regular expressions, for example).
-
-            Other security features beyond SQL Injection Prevention you may add could include a login screen and hashed password protection. The number and type of security features is left up to you as long as you have some included. This article provides a list of options you can implement to meet this requirement.
-
-            Scalable design elements would be items such as dropdown boxes, radio buttons, or table grids that are populated through a database rather than hard-coded. This allows for expansion of options and growth. For instance, your app may ask the user to select from paper or plastic and that may currently be their only options. However, in the coming years, cotton, hemp, or other materials may become options. If your field selectors are populated through the database, you only need to add other entries to the database to expand the app. If they are hard-coded, you would then have to touch your code in every single place that option exists in your application. This makes maintenance time-intensive and leaves the possibility open that you may forget where every option is presented to the user.
-
-            User-Friendly GUI - make sure your application is easy-to-use and understood by your target end-user. This involves clear menus, icons, confirmations when user-inputed data is accepted, and sensible error messages.
-
+            </p>
+            <p>
+                <b>User-Friendly GUI</b> - make sure your application is easy-to-use and understood by your target end-user. This involves clear menus, icons, confirmations when user-inputed data is accepted, and sensible error messages.
+            </p>
             ___________________________________________________________________________________________________________________
             Technical Documentation
 

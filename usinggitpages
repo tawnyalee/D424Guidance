@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>D424 Using Git Pagese</title>
+
+</head>
+
+<body>
+    <div class="container">
+		<div class="sidenav">
+			<ul>
+			   <li><a href="index.html">Overview</a></li> 
+			   <li><a href="task1.html">Task 1</a></li> 
+			   <li><a href="task2.html">Task 2</a></li> 
+			   <li> <a href="task3.html">Task 3</a></li> 
+			   <li><a href="task4.html">Task 4</a></li> 
+			   <li><a href="hosting.html">Hosting</a></li> 
+			   <li><a href="examples.html">Examples</a></li> 
+			   <li> <a href="security.html">Security Practices</a></li> 
+			</ul>    
+		</div>
+		<div class="main">
+		<h1>Using Git Pages for Mobile Apps</h1>
+		<br/><br/>
+		<h3>Setting up a Github Page to Host Your Mobile App</h3>
+<p>
+To host your app for Capstone, you don't need to use a mobile app store. You can simply put up a static HTML page with a link to your APK. This wouldn't be a real word way to handle this, but it will be ok for this class. 
+</p>
+<p>
+      <h3>Step 1: Create a GitHub Account</h3>
+ </p>
+      <ol>
+        <li>Go to GitHub and sign up for an account.</li>
+        <li>Verify your email and log in.</li>
+     </ol>
+      <h3>Step 2: Create a New Repository</h3>
+      <ol>
+        <li>Click the "+" icon in the top-right corner and select "New repository".</li>
+        <li>Enter a repository name (e.g., my-github-page).</li>
+        <li>Set the repository to Public.</li>
+        <li>Check "Add a README file".</li>
+       <li>"Create repository".</li> 
+        <li></li>Click 
+        <li></li>Step 3: Enable GitHub Pages
+      
+      Go to your repository.
+      Click on "Settings" (found in the top menu).
+      Scroll down to "Pages" (under "Code and automation" on the left-hand nav menu).
+      Under "Branch", select main (or master) as the source.
+      Click "Save".
+      GitHub will generate a link (e.g., https://yourusername.github.io/my-github-page/). Give it 2-5 minutes to generate the code and create the link.
+      Step 4: Add an HTML File
+      
+      Go back to your repository.
+      Click "Add file" > "Create new file".
+      Name it index.html (this will be the homepage).
+      Add the following basic HTML code:
+</p>		
+		</div>
+    </div>        
+</body>
+
+</html>

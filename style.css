@@ -98,7 +98,7 @@ mark {
     flex-direction: column; /* Ensures content inside main flows vertically */
 }
 .main ul {
-    padding: 35px 0;
+    padding: 20px 0;
     list-style: circle;
     padding-inline-start: 40px;
     margin-right: 10px;
@@ -109,7 +109,7 @@ mark {
 }
 
 .main ol {
-    padding: 35px 0;
+    padding: 20px 0;
     list-style: decimal;  /* Changed from circle to decimal for ordered lists */
     padding-inline-start: 40px;
     margin-right: 10px;

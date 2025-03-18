@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>My GitHub Page</title>
+    <title>D424 Security Best Practices</title>
 
 </head>
 
@@ -27,11 +27,48 @@
 			</ul>    
 		</div>
 		<div class="main">
-		<h1>D424 Software Engineering Capstone - Security Best Practices</h1>
+		<h1>D424  - Security Best Practices</h1>
 
 
-	   <p>Add more content or delete code as desired.</p>
-		</div>
+	   <p>One of the most common questions we get from students is, "How can I implement Security measures?". 
+		   This article discusses the various best practices software developers and engineers can handle sensitive data and ensure 
+		   the system is secure from various threats. 
+
+ 
+
+<h3>General Security Practices</h3>
+<ol>
+	<li><b>Input Validation and Sanitization: Validate and sanitize all user inputs to prevent SQL injection, cross-site scripting (XSS), and other injection attacks.</b></li>
+	<li><b>Authentication and Authorization: strong authentication (e.g., MFA), Secure password techniques (e.g., hashing with salt/bcrypt)Proper role-based access controls</b></li>
+	<li><b>Data Encryption:</b> Encrypt data in transit (TLS/SSL) and at rest, use strong encryption standards (e.g., AES-256 for data encryption) </li>
+	<li><b>Secure APIs:</b>Use secure APIs with proper authentication and authorization mechanisms,Limit the exposure of internal APIs to the public.</li>
+</ol>  - 
+<h3>Backend Security Practices</h3>
+<ol>
+	<li><b>Database Security:</b>Use parameterized queries or ORM (Object-Relational Mapping) to prevent SQL injection,Regularly update and patch database management systems (DBMS), Restrict database access based on the principle of least privilege.</li>
+	<li><b>Server Security:</b>Keep server software and dependencies up to date with the latest security patches, Implement firewalls and intrusion detection/prevention systems,Use secure and hardened configurations for server and application software.</li>
+	<li><b>Error Handling and Logging:</b>Implement proper error handling to avoid exposing sensitive information in error messages, Use logging to monitor and audit access and changes to the system, but ensure sensitive information is not logged.
+</li>
+</ol>
+<h3>Frontend Security Practices</h3>
+<ol>
+	<li><b>Secure Communication:</b>Use HTTPS for secure communication between the client and server, Implement Content Security Policy (CSP) to mitigate XSS attacks</li>
+	<li><b>Session Management:</b>Use secure cookies with attributes like HttpOnly, Secure, and SameSite, Implement proper session timeout and renewal mechanisms. </li>
+	<li><b>Client-side Validation:</b> Perform client-side validation as an additional layer of security, but never rely solely on it. Always validate on the server side as well.</li>
+</ol>
+			
+<h3>DevOps and Deployment Security Practices</h3>
+
+<ol>
+	<li><b>Secure Development Lifecycle:</b>Integrate security practices into the software development lifecycle (SDLC), 
+		including regular code reviews and security testing, Use automated security testing tools (e.g., static code analysis, dynamic analysis). </li>
+	<li><b>Configuration Management:</b>Store configuration files securely and avoid hardcoding sensitive information such as API keys and passwords, Use environment variables and secret management tools for sensitive configurations. </li>
+	<li><b>Continuous Monitoring and Incident Response:</b> Continuously monitor the system for security breaches and unusual activities,Have an incident response plan in place to quickly address and mitigate security incidents. </li>
+</ol> 
+
+<p>
+	This is by no means an exhaustive list. It is only meant to get you thinking of the possibilities for adding security to your own project.
+</p>		</div>
     </div>        
 </body>
 
